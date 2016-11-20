@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB1535041DE242880074F5D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1535031DE242880074F5D1 /* main.m */; };
+		FB1535071DE242880074F5D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1535061DE242880074F5D1 /* AppDelegate.m */; };
+		FB15350A1DE242880074F5D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1535091DE242880074F5D1 /* ViewController.m */; };
+		FB15350D1DE242880074F5D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB15350B1DE242880074F5D1 /* Main.storyboard */; };
+		FB15350F1DE242880074F5D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB15350E1DE242880074F5D1 /* Assets.xcassets */; };
+		FB1535121DE242880074F5D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB1535101DE242880074F5D1 /* LaunchScreen.storyboard */; };
+		FB15351B1DE242CF0074F5D1 /* LRWview7.m in Sources */ = {isa = PBXBuildFile; fileRef = FB15351A1DE242CF0074F5D1 /* LRWview7.m */; };
+		FB15351E1DE242DE0074F5D1 /* UIView+LRWview.m in Sources */ = {isa = PBXBuildFile; fileRef = FB15351D1DE242DE0074F5D1 /* UIView+LRWview.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB1534FF1DE242880074F5D1 /* LRWGestureLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LRWGestureLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB1535031DE242880074F5D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB1535051DE242880074F5D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB1535061DE242880074F5D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB1535081DE242880074F5D1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB1535091DE242880074F5D1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB15350C1DE242880074F5D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB15350E1DE242880074F5D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB1535111DE242880074F5D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB1535131DE242880074F5D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB1535191DE242CF0074F5D1 /* LRWview7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRWview7.h; sourceTree = "<group>"; };
+		FB15351A1DE242CF0074F5D1 /* LRWview7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRWview7.m; sourceTree = "<group>"; };
+		FB15351C1DE242DE0074F5D1 /* UIView+LRWview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LRWview.h"; sourceTree = "<group>"; };
+		FB15351D1DE242DE0074F5D1 /* UIView+LRWview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LRWview.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB1534FC1DE242880074F5D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB1534F61DE242880074F5D1 = {
+			isa = PBXGroup;
+			children = (
+				FB1535011DE242880074F5D1 /* LRWGestureLock */,
+				FB1535001DE242880074F5D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB1535001DE242880074F5D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB1534FF1DE242880074F5D1 /* LRWGestureLock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB1535011DE242880074F5D1 /* LRWGestureLock */ = {
+			isa = PBXGroup;
+			children = (
+				FB1535191DE242CF0074F5D1 /* LRWview7.h */,
+				FB15351A1DE242CF0074F5D1 /* LRWview7.m */,
+				FB15351C1DE242DE0074F5D1 /* UIView+LRWview.h */,
+				FB15351D1DE242DE0074F5D1 /* UIView+LRWview.m */,
+				FB1535051DE242880074F5D1 /* AppDelegate.h */,
+				FB1535061DE242880074F5D1 /* AppDelegate.m */,
+				FB1535081DE242880074F5D1 /* ViewController.h */,
+				FB1535091DE242880074F5D1 /* ViewController.m */,
+				FB15350B1DE242880074F5D1 /* Main.storyboard */,
+				FB15350E1DE242880074F5D1 /* Assets.xcassets */,
+				FB1535101DE242880074F5D1 /* LaunchScreen.storyboard */,
+				FB1535131DE242880074F5D1 /* Info.plist */,
+				FB1535021DE242880074F5D1 /* Supporting Files */,
+			);
+			path = LRWGestureLock;
+			sourceTree = "<group>";
+		};
+		FB1535021DE242880074F5D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB1535031DE242880074F5D1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB1534FE1DE242880074F5D1 /* LRWGestureLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB1535161DE242880074F5D1 /* Build configuration list for PBXNativeTarget "LRWGestureLock" */;
+			buildPhases = (
+				FB1534FB1DE242880074F5D1 /* Sources */,
+				FB1534FC1DE242880074F5D1 /* Frameworks */,
+				FB1534FD1DE242880074F5D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LRWGestureLock;
+			productName = LRWGestureLock;
+			productReference = FB1534FF1DE242880074F5D1 /* LRWGestureLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB1534F71DE242880074F5D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = companyName;
+				TargetAttributes = {
+					FB1534FE1DE242880074F5D1 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = FB1534FA1DE242880074F5D1 /* Build configuration list for PBXProject "LRWGestureLock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB1534F61DE242880074F5D1;
+			productRefGroup = FB1535001DE242880074F5D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB1534FE1DE242880074F5D1 /* LRWGestureLock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB1534FD1DE242880074F5D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1535121DE242880074F5D1 /* LaunchScreen.storyboard in Resources */,
+				FB15350F1DE242880074F5D1 /* Assets.xcassets in Resources */,
+				FB15350D1DE242880074F5D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB1534FB1DE242880074F5D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB15351E1DE242DE0074F5D1 /* UIView+LRWview.m in Sources */,
+				FB15351B1DE242CF0074F5D1 /* LRWview7.m in Sources */,
+				FB15350A1DE242880074F5D1 /* ViewController.m in Sources */,
+				FB1535071DE242880074F5D1 /* AppDelegate.m in Sources */,
+				FB1535041DE242880074F5D1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FB15350B1DE242880074F5D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB15350C1DE242880074F5D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB1535101DE242880074F5D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB1535111DE242880074F5D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB1535141DE242880074F5D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB1535151DE242880074F5D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB1535171DE242880074F5D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LRWGestureLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = companynet.comofLRW.LRWGestureLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB1535181DE242880074F5D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LRWGestureLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = companynet.comofLRW.LRWGestureLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB1534FA1DE242880074F5D1 /* Build configuration list for PBXProject "LRWGestureLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1535141DE242880074F5D1 /* Debug */,
+				FB1535151DE242880074F5D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB1535161DE242880074F5D1 /* Build configuration list for PBXNativeTarget "LRWGestureLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1535171DE242880074F5D1 /* Debug */,
+				FB1535181DE242880074F5D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB1534F71DE242880074F5D1 /* Project object */;
+}
